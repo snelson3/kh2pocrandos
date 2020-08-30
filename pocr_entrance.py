@@ -1,0 +1,1 @@
+# Randomizes all the entrances in the game, in an OOT Beta Quest style way

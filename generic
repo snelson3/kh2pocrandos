@@ -1,0 +1,43 @@
+roles = {
+    "Sora": ("2036C3DC", "154"),
+
+}
+
+from kh2lib import CodeGen
+import random
+import sys
+ 
+def getarg(v):
+    for a in sys.argv:
+        if a.startswith(v+"="):
+            return a[len(v)+1:]
+    return None
+
+outpath = getarg("outpath")
+if outpath:
+    print("Output changed to {}".format(outpath))
+else:
+    outpath = "F266B00B (Roles).pnach"
+
+cg = CodeGen(out_fn=outpath)
+
+def applyURM(cg, orig, new):
+    comment = "Turn role {} into role {}".format(orig, new)
+    cg.apply_ram_code("{} 0016F{}".format(roles[orig][0], roles[new][1]), comment)
+
+replacemode = getarg("replacement")
+if replacemode:
+    replacements = replacemode.split(",")
+    for replacement in replacements:
+        things = replacement.split("->")
+        import sys; sys.stdout.flush()
+        applyURM(cg, things[0], things[1])
+    cg.write_pnach()
+    exit()
+
+options = list(roles.keys())
+random.shuffle(options)
+for role in roles:
+    applyURM(cg, role, options.pop())
+
+cg.write_pnach()

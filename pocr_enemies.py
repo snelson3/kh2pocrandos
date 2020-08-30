@@ -1,0 +1,1 @@
+# Randomizes enemies and/or bosses, two modes

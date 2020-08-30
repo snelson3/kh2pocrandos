@@ -1,0 +1,138 @@
+'ERROR COMMANDCOUT::get i = ': true
+'ERROR COMMANDLIST::add type = ': true
+'ERROR COMMANDLIST::get_idx_list type = ': true
+Error, The number of commands is illegal: true
+INT: true
+Zexion: true
+Zexion_hp_max: true
+Zexion_hp_now: true
+add command over: true
+add_ct: true
+air: true
+alg_hard: true
+alg_hard!: true
+alg_normal: true
+alg_super_hard: true
+alg_super_hard!: true
+appear: true
+atk_book_meteor_2_all: true
+atk_book_meteor_2_all_call: true
+atk_capture: true
+atk_capture_all: true
+atk_capture_vision: true
+atk_capture_vision_all: true
+atk_capture_vision_party: true
+atk_cross_bomb: true
+atk_cross_bomb_party: true
+atk_cross_bomb_sp: true
+atk_dic_start: true
+atk_fly_target: true
+atk_meteor: true
+atk_meteor_2: true
+atk_mirage_circle: true
+atk_shield: true
+atk_storm: true
+atk_tornado: true
+atk_vision: true
+atk_vision_all: true
+back_step: true
+back_step_long: true
+battle_start: true
+battle_start_back_step: true
+book_disappear_all_call: true
+book_hide_all: true
+book_hide_all_call: true
+book_show_all: true
+book_show_all_call: true
+btl_attack: true
+btl_hard: true
+btl_long: true
+btl_normal: true
+btl_short: true
+btl_super_hard: true
+cap donald: true
+cap goofy: true
+capture: true
+change_vision: true
+check: true
+commadn ct: true
+damage_count: true
+dead: true
+dic: true
+disappear_all: true
+end_illusion: true
+escape: true
+event: true
+fly: true
+fly_height_set: true
+fly_idle: true
+fly_target: true
+fly_target_away: true
+fly_target_round: true
+footwork: true
+freeze: true
+idle: true
+idle_long: true
+idle_short: true
+idle_time: true
+idle_wait: true
+idle_wait_vanish: true
+'init command, lv = ': true
+jump: true
+jump end: true
+jump start: true
+leave: true
+max: true
+max_hp: true
+mode_battle: true
+mode_battle_boss: true
+mode_revenge: true
+mode_revenge_boss: true
+move_to_fly_height: true
+near: true
+near_wait: true
+not capture: true
+not shield_on: true
+'override command over, i = ': true
+rc_vanish: true
+recover_hp: true
+release: true
+revenge: true
+revenge_capture_air: true
+revenge_capture_all_air: true
+rst_hard: true
+rst_normal: true
+rst_super_hard: true
+rvg_hard: true
+rvg_long: true
+rvg_normal: true
+rvg_short: true
+rvg_super_hard: true
+shield_on: true
+start_illusion: true
+stealth_dead: true
+success_capture: true
+talk: true
+test_atk_dic: true
+test_cross_bomb: true
+test_disp_hp: true
+test_fall: true
+test_hook_command: true
+test_reset_command: true
+test_sound_set_bgse_volume_0: true
+test_sound_set_bgse_volume_1: true
+test_stealth_off: true
+test_stealth_on: true
+test_vision_spell: true
+test_zexion_hp: true
+turn_shuffle: true
+type: true
+unknown_alg: true
+walk: true
+walk_back: true
+walk_side: true
+walk_side_b: true
+weak_mode: true
+weak_mode!: true
+zexion_hp: true
+zexion_hp_recover: true
